@@ -3,7 +3,7 @@
 
 }
 body{
-    margin: 0;
+    margin: 0; 
     padding: 0;
 }
 .menu ul {
@@ -204,6 +204,9 @@ margin-top: 70px;
 }
 .subabout p a{
     color: aqua;
+}
+.subabout p a:hover {
+    color: black;
 }
 .payment{
     display: flex;
