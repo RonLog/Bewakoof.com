@@ -1,0 +1,229 @@
+*{
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+.menu ul li{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.menu ul li:hover {
+    border-bottom: 5px solid rgb(253, 216, 53);
+}
+.mens-col {
+    display: flex;
+    background-color: white;
+}
+
+.mens-col a {
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.mens-col a:not(:first-child):hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.mens-subcol {
+    padding: 20px 20px;
+
+}
+
+.men {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    border: 1px solid lightgray;
+    overflow-y: scroll;
+}
+
+.menu ul li:hover .men {
+    display: block;
+    transition: transform 1s;
+
+}
+.menuheading,.submenuheading{
+    font-size: large;
+    font-weight: bold;
+}
+.newIndicator{
+    color: red;
+}
+.special-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-left: 1px solid lightgray;
+    padding-left: 40px;
+    
+}
+
+.special-col a {
+    text-decoration: none;
+}
+
+.special-col img {
+    width: 50px;
+}
+
+.headtop {
+    width: 100%;
+    position: fixed;
+    top:0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 238, 238);
+    z-index: 2;
+
+}
+
+.headtop .headtleft span,
+.headtop .headtright span {
+    margin-left: 15px;
+}
+
+header {
+    position: fixed;
+    top:18px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    background-color: white;
+    z-index: 2;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.search img {
+    width: 30px;
+}
+
+.search a {
+    text-decoration: none;
+    color: black;
+}
+
+#maincontent{
+margin-top: 70px;
+}
+
+.mainmid{
+    overflow:hidden ;
+}
+.mainmid img{
+    transition: transform 1s;
+}
+.mainmid img:hover {
+    /* overflow: hidden; */
+    transform: scale(1.1);
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+}
+
+.social1 ul {
+    list-style: none;
+}
+
+.social ul li:first-child {
+    padding-bottom: 20px;
+}
+
+.social1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social1 h4 {
+    color: rgb(253, 216, 53);
+}
+
+.social1 ul i {
+    color: white;
+    padding-left: 20px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+    border-top: 2px solid white;
+}
+
+.link1 ul {
+    list-style: none;
+}
+
+.link1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+#lastlink{
+    margin-top: 10px;
+}
+#lastlink ul li{
+    padding:10px 0px;
+}
+#lastlink ul li a{
+    font-weight: bolder;
+    color: aqua;
+}
+#headlink{
+    margin:30px 0px;
+    font-weight: bolder;
+}
+.about{
+    background-color: rgb(24, 24, 24);
+    padding-bottom: 100px;
+}
+.subabout{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.subabout p a{
+    color: aqua;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+    padding-bottom: 30px;
+    /* column-gap: 300px; */
+
+}
+.payment1 ul {
+    list-style: none;
+}
+.payment1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.payment1 h3{
+    color: white;
+}
+.payment1 i{
+    color: white;
+    padding-right: 15px;
+}
