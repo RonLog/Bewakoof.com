@@ -46,6 +46,8 @@ body{
     top: 50px;
     left: 300px;
     border: 1px solid lightgray;
+    height:270px;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
