@@ -78,8 +78,13 @@ body{
 
 .special-col img {
     width: 50px;
+    vertical-align: middle;
 }
-
+.special-col a span{
+    white-space: nowrap;
+    display: inline-block;
+    width:160px;
+}
 .headtop {
     width: 100%;
     position: fixed;
