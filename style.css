@@ -35,14 +35,21 @@ body {
 
 }
 
-.mens-col a:not(:first-child):hover {
-    text-decoration: underline;
+.mens-col a:not(:first-child) {
     color: gray;
 }
 
-.mens-subcol {
-    padding: 20px 20px;
+.mens-col a:not(:first-child):hover {
+    text-decoration: underline;
+    color: black;
+}
 
+.mens-subcol {
+    padding: 20px;
+}
+
+.men-col-height {
+    height: 80vh;
 }
 
 .men {
@@ -78,6 +85,7 @@ body {
 .submenuheading {
     font-size: large;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .newIndicator {
